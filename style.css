@@ -349,7 +349,7 @@ form button{
   background: white;
   color: #5e21e2;
   text-decoration: none;
-  /* border: 2px solid #5e21e2; */
+  border: 2px solid #5e21e2;
   padding: 0.5rem 2rem;
   border-radius: 5px;
   font-size: 1.2rem;
