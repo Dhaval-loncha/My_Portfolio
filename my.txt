@@ -1,0 +1,52 @@
+
+const projectContainer = document.getElementsByClassName("project-content");
+console.log(projectContainer.target);
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  async function fetchProjects() {
+    try {
+      const response = await fetch("project.json");
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      const data = await response.json();
+      console.log("Fetched Data:", data);
+      displayProjects(data);
+    } catch (error) {
+      console.error("There was a problem with the fetch operation:", error);
+    }
+  }
+
+  function displayProjects(projects) {
+    const projectContainer = document.getElementById("project-container");
+    projectContainer.innerHTML = ""; 
+
+    for (let i = 0; i < projects.length; i++) {
+      const project = projects[i];
+      const { title, description, live, code, img } = project;
+
+      const projectItem = `
+          <div class="project-item">
+            <div class="p-img">
+              <img src="${img}" alt="${title}">
+            </div>
+            <div class="p-detail fonts">
+              <h2>${title}</h2>
+              <p>${description}</p>
+              <div class="p-btn">
+                <a href="${live}" target="_blank">Live Website</a>
+                <a href="${code}" target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
+        `;
+
+      projectContainer.innerHTML += projectItem;
+    }
+  }
+
+  // Fetch and display the projects when the page loads
+  fetchProjects();
+
+});
