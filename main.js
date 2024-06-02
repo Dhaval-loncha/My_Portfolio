@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// script.js
 // displaySkills.js
 document.addEventListener('DOMContentLoaded', function() {
   const skillsContent = document.querySelector(".items");
