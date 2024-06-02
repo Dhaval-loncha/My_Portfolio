@@ -1,0 +1,86 @@
+.roleup{
+    opacity: 0;
+    transform: translateY(-5rem);
+    transition: all 0.7s ease-in-out;
+}
+
+.roleup.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.roledown{
+    opacity: 0;
+    transform: translateY(5rem);
+    transition: all 1s ease-in-out;
+}
+
+.roledown.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about-me p.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.td-anime{
+    opacity: 0;
+    transform: translateZ(-50px) scale(0.5);
+    transition: opacity 0.5s, transform 1s;
+}
+
+.td-anime.visible{
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+}
+
+.role-left{
+    opacity: 0;
+    transform: translateX(-3rem);
+    transition: all 0.8s ease-in-out;
+}
+.role-left.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.pi-down{
+    opacity: 0;
+    transform: translateX(-5rem);
+    transition: all 0.8s ease-in-out;
+}
+
+.pd-up{
+    opacity: 0;
+    transform: translateX(5rem);
+    transition: all 0.8s ease-in-out
+}
+
+.pi-down.visible, .pd-up.visible{ 
+    opacity: 1; 
+    transform: translateX(0);
+}
+
+
+
+@media (max-width: 900px) {
+    
+    .pi-down{
+        opacity: 0;
+        transform: translateY(-5rem);
+        transition: all 0.8s ease-in-out;
+    }
+    
+    .pd-up{
+        opacity: 0;
+        transform: translateY(5rem);
+        transition: all 0.8s ease-in-out
+    }
+    
+    .pi-down.visible, .pd-up.visible{ 
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}

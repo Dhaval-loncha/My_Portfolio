@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Online Meal Template",
+        "description": "MyOnlineMeal is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
+        "live": "",
+        "code": "",
+        "img": "img/projects/p1.png"
+    },
+    {
+        "title": "Study Hub",
+        "description": "StudyHub is a web application that I created as group project to help students that are pursuing BTech in CSE or IT field can access their study materials from anywhere.",
+        "live": "https://studyhub-gtu.netlify.app/",
+        "code": "https://github.com/Dhaval-loncha/Study-Hub",
+        "img": "img/projects/p2.png"
+    },
+    {
+        "title": "My Weather App",
+        "description": "My Weather App use to find current weather of a city. It also show the other aspects of that city like sunrise time, sunset time, etc. ",
+        "live": "",
+        "code": "",
+        "img": "img/projects/p3.png"
+    }
+]
