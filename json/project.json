@@ -19,5 +19,12 @@
         "live": "",
         "code": "",
         "img": "img/projects/p3.png"
+    },
+    {
+        "title": "Recipes DB",
+        "description": "Recipes DB is a web application where you can search for recipes. There is variety of recipes available on this website. ",
+        "live": "",
+        "code": "",
+        "img": "img/projects/p4.png"
     }
 ]
