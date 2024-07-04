@@ -1,14 +1,30 @@
 [
-    {
-        "name": "HTML",
-        "img": "img/html.png"
-    },
-    {
-        "name": "CSS",
-        "img": "img/css.png"
-    },
-    {
-        "name": "JS",
-        "img": "img/js.png"
-    }
+	{
+		"name": "HTML",
+		"img": "img/html.png"
+	},
+	{
+		"name": "CSS",
+		"img": "img/css.png"
+	},
+	{
+		"name": "JavaScript",
+		"img": "img/js.png"
+	},
+	{
+		"name": "Bootstrap",
+		"img": "img/bootstrap.png"
+	},
+	{
+		"name": "jQuery",
+		"img": "img/jquery.png"
+	},
+	{
+		"name": "Python",
+		"img": "img/python.png"
+	},
+	{
+		"name": "PostgreSQL",
+		"img": "img/postgresql.png"
+	}
 ]
