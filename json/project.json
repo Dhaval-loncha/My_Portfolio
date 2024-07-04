@@ -16,15 +16,15 @@
     {
         "title": "My Weather App",
         "description": "My Weather App use to find current weather of a city. It also show the other aspects of that city like sunrise time, sunset time, etc. ",
-        "live": "",
-        "code": "",
+        "live": "https://my-weatherly-live.netlify.app/",
+        "code": "https://github.com/Dhaval-loncha/My_Weather_App",
         "img": "img/projects/p3.png"
     },
     {
         "title": "Recipes DB",
         "description": "Recipes DB is a web application where you can search for recipes. There is variety of recipes available on this website. ",
-        "live": "",
-        "code": "",
+        "live": "https://my-recipes-db.netlify.app/",
+        "code": "https://github.com/Dhaval-loncha/Recipes_DB",
         "img": "img/projects/p4.png"
     }
 ]
