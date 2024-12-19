@@ -1,12 +1,5 @@
 [
     {
-        "title": "Online Meal Template",
-        "description": "MyOnlineMeal is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
-        "live": "",
-        "code": "",
-        "img": "img/projects/p1.png"
-    },
-    {
         "title": "Study Hub",
         "description": "StudyHub is a web application that I created as group project to help students that are pursuing BTech in CSE or IT field can access their study materials from anywhere.",
         "live": "https://studyhub-gtu.netlify.app/",
@@ -26,5 +19,12 @@
         "live": "https://my-recipes-db.netlify.app/",
         "code": "https://github.com/Dhaval-loncha/Recipes_DB",
         "img": "img/projects/p4.png"
+    },
+    {
+        "title": "EvoGym",
+        "description": "Unrivaled Gym. Unparalleled Training Fitness Classes. World Class Studios to get the Body Shapes That you Dream of.. Get Your Dream Body Now.",
+        "live": "https://gym-web-ts.pages.dev/",
+        "code": "https://github.com/Dhaval-loncha/Gym-Web-TS",
+        "img": "img/projects/p5.png"
     }
 ]

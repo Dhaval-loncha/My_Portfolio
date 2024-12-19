@@ -20,11 +20,11 @@
 		"img": "img/jquery.png"
 	},
 	{
-		"name": "Python",
-		"img": "img/python.png"
+		"name": "React JS",
+		"img": "img/React JS.png"
 	},
 	{
-		"name": "PostgreSQL",
-		"img": "img/postgresql.png"
+		"name": "Tailwind CSS",
+		"img": "img/tailwind.png"
 	}
 ]
