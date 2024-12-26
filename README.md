@@ -35,6 +35,6 @@ This portfolio serves as a personal website to:
 ## 🔧 Installation:
 To run this project locally, clone the repository and open the `index.html` file in your browser:
 ```bash
-git clone https://github.com/yourusername/dhaval-loncha-portfolio.git
+git clone https://github.com/Dhaval-loncha/My_Portfolio.git
 cd dhaval-loncha-portfolio
 # Open index.html in your browser
